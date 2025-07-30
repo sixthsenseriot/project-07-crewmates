@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./CrewmateCard.css";
+import "./Card.css";
 
-const CrewmateCard = ({ mate }) => {
+const Card = ({ mate }) => {
     const bodyImage = `/assets/bodies/${mate.color}.png`;
     const hatImage = `/assets/hats/${mate.hat}.png`;
 
@@ -44,4 +44,4 @@ const CrewmateCard = ({ mate }) => {
     );
 };
 
-export default CrewmateCard;
+export default Card;
