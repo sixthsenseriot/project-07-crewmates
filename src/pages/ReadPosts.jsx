@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { supabase } from "../client";
 import { Link } from "react-router-dom";
-import CrewmateCard from "../components/CrewmateCard";
+import CrewmateCard from "../components/Card";
 import "./ReadPosts.css";
 
 const ReadPosts = () => {
