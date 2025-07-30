@@ -1,0 +1,147 @@
+.create-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.create-form {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #f2f2f2;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.create-form input,
+.create-form select,
+.create-form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.create-form button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.create-form button:hover {
+    background-color: #0d6efd;
+}
+
+.preview {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.crewmate-preview {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crewmate-preview .body {
+    position: absolute;
+    height: auto;
+    z-index: 1;
+}
+
+.crewmate-preview .hat {
+    position: absolute;
+    transform: translateX(-50%);
+    height: auto;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.hat.beanie {
+    top: -90px; /* moves hat upward */
+    left: 46%;
+    width: 80%; /* adjust as needed based on your hat image size */
+}
+
+.hat.abominal {
+    top: -120px; /* moves hat upward */
+    left: 40%;
+    width: 100%; /* adjust as needed based on your hat image size */
+}
+
+.hat.alien {
+    top: -120px; /* moves hat upward */
+    left: 60%;
+}
+
+.hat.bean {
+    top: -100px; /* moves hat upward */
+    left: 48%;
+    width: 50%; /* adjust as needed based on your hat image size */
+}
+
+.hat.bone {
+    top: -80px; /* moves hat upward */
+    left: 48%;
+}
+
+.hat.butter {
+    top: -90px; /* moves hat upward */
+    left: 40%;
+    width: 60%;
+}
+
+.hat.cat {
+    top: -90px; /* moves hat upward */
+    left: 48%;
+    width: 80%;
+}
+
+.hat.cheese {
+    top: -110px; /* moves hat upward */
+    left: 60%;
+    width: 60%;
+}
+
+.hat.crown {
+    top: -110px; /* moves hat upward */
+    left: 30%;
+}
+
+.hat.duck {
+    top: -120px; /* moves hat upward */
+    left: 50%;
+}
+
+.hat.flower,
+.hat.money {
+    top: -70px; /* moves hat upward */
+    left: 45%;
+}
+
+.hat.pirate {
+    top: -140px; /* moves hat upward */
+    left: 46%;
+    width: 90%;
+}
+
+.hat.scuba {
+    top: -120px; /* moves hat upward */
+    left: 50%;
+    width: 70%;
+}
