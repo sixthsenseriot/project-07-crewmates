@@ -6,6 +6,11 @@ const CrewmateCard = ({ mate }) => {
     const bodyImage = `/assets/bodies/${mate.color}.png`;
     const hatImage = `/assets/hats/${mate.hat}.png`;
 
+    function capitalizeFirstLetter(string) {
+        if (!string) return "";
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
     return (
         <div className="crewmate-card">
             <div className="crewmate-image-container">
@@ -23,10 +28,10 @@ const CrewmateCard = ({ mate }) => {
             <div className="crewmate-info">
                 <h3>{mate.name}</h3>
                 <p>
-                    <strong>Color:</strong> {mate.color}
+                    <strong>Color:</strong> {capitalizeFirstLetter(mate.color)}
                 </p>
                 <p>
-                    <strong>Hat:</strong> {mate.hat}
+                    <strong>Hat:</strong> {capitalizeFirstLetter(mate.hat)}
                 </p>
                 <Link to={`/edit/${mate.id}`}>
                     <button>Edit 🛠️</button>
