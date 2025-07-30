@@ -72,76 +72,87 @@
     pointer-events: none;
 }
 
-.hat.beanie {
-    top: -90px; /* moves hat upward */
+.crewmate-preview .hat.beanie {
+    top: -90px;
     left: 46%;
-    width: 80%; /* adjust as needed based on your hat image size */
+    width: 80%;
 }
 
-.hat.abominal {
-    top: -120px; /* moves hat upward */
+.crewmate-preview .hat.abominal {
+    top: -120px;
     left: 40%;
-    width: 100%; /* adjust as needed based on your hat image size */
+    width: 100%;
 }
 
-.hat.alien {
-    top: -120px; /* moves hat upward */
+.crewmate-preview .hat.alien {
+    top: -120px;
     left: 60%;
 }
 
-.hat.bean {
-    top: -100px; /* moves hat upward */
+.crewmate-preview .hat.bean {
+    top: -100px;
     left: 48%;
-    width: 50%; /* adjust as needed based on your hat image size */
+    width: 50%;
 }
 
-.hat.bone {
-    top: -80px; /* moves hat upward */
+.crewmate-preview .hat.bone {
+    top: -80px;
     left: 48%;
 }
 
-.hat.butter {
-    top: -90px; /* moves hat upward */
+.crewmate-preview .hat.butter {
+    top: -90px;
     left: 40%;
     width: 60%;
 }
 
-.hat.cat {
-    top: -90px; /* moves hat upward */
+.crewmate-preview .hat.cat {
+    top: -90px;
     left: 48%;
     width: 80%;
 }
 
-.hat.cheese {
-    top: -110px; /* moves hat upward */
+.crewmate-preview .hat.cheese {
+    top: -110px;
     left: 60%;
     width: 60%;
 }
 
-.hat.crown {
-    top: -110px; /* moves hat upward */
+.crewmate-preview .hat.crown {
+    top: -110px;
     left: 30%;
 }
 
-.hat.duck {
-    top: -120px; /* moves hat upward */
+.crewmate-preview .hat.duck {
+    top: -120px;
     left: 50%;
 }
 
-.hat.flower,
-.hat.money {
-    top: -70px; /* moves hat upward */
+.crewmate-preview .hat.flower {
+    top: -70px;
     left: 45%;
 }
 
-.hat.pirate {
-    top: -140px; /* moves hat upward */
+.crewmate-preview .hat.money {
+    top: -78px;
+    left: 48%;
+    width: 60%;
+}
+
+.crewmate-preview .hat.pirate {
+    top: -140px;
     left: 46%;
     width: 90%;
 }
 
-.hat.scuba {
-    top: -120px; /* moves hat upward */
+.crewmate-preview .hat.party {
+    top: -140px;
+    left: 40%;
+    width: 58%;
+}
+
+.crewmate-preview .hat.scuba {
+    top: -120px;
     left: 50%;
     width: 70%;
 }

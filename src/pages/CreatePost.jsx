@@ -22,7 +22,6 @@ const hats = [
     "abominal",
     "alien",
     "bean",
-    "beanie",
     "bone",
     "butter",
     "cat",
@@ -31,6 +30,7 @@ const hats = [
     "duck",
     "flower",
     "money",
+    "party",
     "pirate",
     "scuba",
 ];

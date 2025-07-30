@@ -1,0 +1,131 @@
+.crewmate-card {
+    background: #f8f8f8;
+    padding: 1rem;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.crewmate-image-container {
+    position: relative;
+    width: 120px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+.crewmate-image-container .body {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.crewmate-image-container {
+    position: relative;
+    width: 120px;
+    height: 160px;
+    margin: 0 auto 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.crewmate-image-container .hat {
+    position: absolute;
+    transform: translateX(-50%);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.hat.beanie {
+    top: 20px;
+    left: 46%;
+    width: 50%; /* adjust as needed based on your hat image size */
+}
+
+.hat.abominal {
+    top: 0px;
+    left: 40%;
+    width: 70%; /* adjust as needed based on your hat image size */
+}
+
+.hat.alien {
+    top: 0px;
+    left: 60%;
+    width: 50%;
+}
+
+.hat.bean {
+    top: 10px;
+    left: 48%;
+    width: 40%; /* adjust as needed based on your hat image size */
+}
+
+.hat.bone {
+    top: 24px;
+    left: 48%;
+    width: 50%;
+}
+
+.hat.butter {
+    top: 22px;
+    left: 42%;
+    width: 40%;
+}
+
+.hat.cat {
+    top: 20px;
+    left: 48%;
+    width: 50%;
+}
+
+.hat.cheese {
+    top: 14px;
+    left: 58%;
+    width: 40%;
+}
+
+.hat.crown {
+    top: 10px;
+    left: 38%;
+    width: 30%;
+}
+
+.hat.duck {
+    top: 2px;
+    left: 50%;
+    width: 40%;
+}
+
+.hat.flower {
+    top: 28px;
+    left: 45%;
+    width: 40%;
+}
+
+.hat.money {
+    top: 28px;
+    left: 48%;
+    width: 40%;
+}
+
+.hat.pirate {
+    top: 2px;
+    left: 46%;
+    width: 60%;
+}
+
+.hat.party {
+    top: -4px;
+    left: 46%;
+    width: 44%;
+}
+
+.hat.scuba {
+    top: 10px;
+    left: 52%;
+    width: 50%;
+}
