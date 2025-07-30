@@ -36,6 +36,9 @@ const CrewmateCard = ({ mate }) => {
                 <Link to={`/edit/${mate.id}`}>
                     <button>Edit 🛠️</button>
                 </Link>
+                <Link to={`/details/${mate.id}`}>
+                    <button>Details 📄</button>
+                </Link>
             </div>
         </div>
     );

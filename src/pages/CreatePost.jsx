@@ -40,6 +40,8 @@ const CreatePost = () => {
         name: "",
         color: "",
         hat: "",
+        likes: "",
+        dislikes: "",
     });
 
     const navigate = useNavigate();
@@ -102,6 +104,29 @@ const CreatePost = () => {
                         </option>
                     ))}
                 </select>
+
+                <div className="detail-container">
+                    <div>
+                        <label className="likes-label">Likes:</label>
+                        <input
+                            name="likes"
+                            value={crewmate.likes}
+                            onChange={handleChange}
+                            placeholder="Crewmate Likes"
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label className="dislikes-label">Dislikes:</label>
+                        <input
+                            name="dislikes"
+                            value={crewmate.dislikes}
+                            onChange={handleChange}
+                            placeholder="Crewmate Dislikes"
+                            required
+                        />
+                    </div>
+                </div>
 
                 <button type="submit">Create Crewmate 🚀</button>
             </form>

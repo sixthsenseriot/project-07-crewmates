@@ -4,12 +4,14 @@ import "./App.css";
 import CreatePost from "./pages/CreatePost";
 import EditPost from "./pages/EditPost";
 import ReadPosts from "./pages/ReadPosts";
+import CrewmateDetails from "./pages/CrewmateDetails";
 
 const App = () => {
     const routes = useRoutes([
         { path: "/", element: <ReadPosts /> },
         { path: "/create", element: <CreatePost /> },
         { path: "/edit/:id", element: <EditPost /> },
+        { path: "/details/:id", element: <CrewmateDetails /> },
     ]);
 
     return (

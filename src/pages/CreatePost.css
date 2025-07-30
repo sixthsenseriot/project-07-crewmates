@@ -21,7 +21,7 @@
 .create-form input,
 .create-form select,
 .create-form button {
-    padding: 0.5rem;
+    padding: 0.5rem 0.8em;
     font-size: 1rem;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -37,6 +37,21 @@
 
 .create-form button:hover {
     background-color: #0d6efd;
+}
+
+.detail-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.likes-label,
+.dislikes-label {
+    margin-right: 8px;
+}
+
+.dislikes-label {
+    margin-left: 14px;
 }
 
 .preview {

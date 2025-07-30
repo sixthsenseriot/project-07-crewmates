@@ -9,7 +9,10 @@ const ReadPosts = () => {
 
     useEffect(() => {
         const fetchCrewmates = async () => {
-            let { data, error } = await supabase.from("Crewmates").select("*");
+            let { data, error } = await supabase
+                .from("Crewmates")
+                .select("*")
+                .order("created_at", { ascending: false });
             setCrewmates(data);
         };
         fetchCrewmates();
