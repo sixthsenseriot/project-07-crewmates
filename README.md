@@ -4,6 +4,8 @@ Submitted by: **Khanh Nguyen**
 
 **Crewmates** is a full-featured CRUD web application that allows users to create and customize their own Among Us crewmate characters. Users can personalize each crewmate by selecting a body color, choosing from a variety of hats, and adding unique details such as likes and dislikes. Once customized, crewmates can be posted to the app and displayed alongside others. Users also have the ability to view, edit, and delete any crewmates they’ve created, providing full control over their creations in an intuitive and interactive interface.
 
+🔗 [View Live Website](https://amoga.netlify.app/) 
+
 Time spent: **8** hours spent in total
 
 ## Required Features
@@ -47,11 +49,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Website Walkthrough](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN281cjc3eTdiMzNmbWM0MzRxdTA0czRrZzMwZjdrZXc5bXB1MHg5aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/x7PGXK0HG7Nen0zKHQ/giphy.gif)
+
+🔗 [Link for Better Viewing of Walkthrough](https://imgur.com/gallery/codepath-project-7-crewmates-kn-68fUog1)
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ...
+GIF created with [LICEcap v1.32](https://www.cockos.com/licecap/)
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
