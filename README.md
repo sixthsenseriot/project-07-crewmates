@@ -2,7 +2,7 @@
 
 Submitted by: **Khanh Nguyen**
 
-This web app: **insert description**
+**Crewmates** is a full-featured CRUD web application that allows users to create and customize their own Among Us crewmate characters. Users can personalize each crewmate by selecting a body color, choosing from a variety of hats, and adding unique details such as likes and dislikes. Once customized, crewmates can be posted to the app and displayed alongside others. Users also have the ability to view, edit, and delete any crewmates they’ve created, providing full control over their creations in an intuitive and interactive interface.
 
 Time spent: **8** hours spent in total
 
@@ -23,7 +23,7 @@ The following **required** functionality is completed:
 -   [x] **A previously created crewmate can be deleted from the crewmate list**
     -   Using the edit form detailed in the previous _crewmates can be updated_ feature, there is a button that allows users to delete that crewmate
     -   After deleting a crewmate, the crewmate should no longer be visible in the summary page
-    -   [ ] **Each crewmate has a direct, unique URL link to an info page about them**
+    -   [x] **Each crewmate has a direct, unique URL link to an info page about them**
         -   Clicking on a crewmate in the summary page navigates to a detail page for that crewmate
         -   The detail page contains extra information about the crewmate not included in the summary page
         -   Users can navigate to to the edit form from the detail page
@@ -60,7 +60,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+One of the main challenges I faced during the development of this web app was meeting the project deadline due to personal life circumstances. Balancing time between responsibilities outside of development and ensuring consistent progress on the app proved to be difficult at times. Despite this, I stayed focused and prioritized core functionality to ensure the app was delivered in a working and polished state.
 
 ## License
 
