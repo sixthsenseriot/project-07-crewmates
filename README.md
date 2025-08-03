@@ -41,10 +41,6 @@ The following **optional** features are implemented:
 -   [ ] The summary page displays a custom “success” metric about a user’s crew which changes the look of the crewmate list
     -   e.g., a pirate crew’s predicted success at commandeering a new galley
 
-The following **additional** features are implemented:
-
--   [ ] List anything else that you added to improve the site's functionality!
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
